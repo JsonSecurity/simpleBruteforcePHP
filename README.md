@@ -1,12 +1,13 @@
 # simpleBruteforcePHP
 This is a simple proof of concept of a brute force attack with Python on HTML and PHP login forms.
 
+--------
+First the local server with php or other such as xampp, apache, python, etc. must be set up.
 ```
 php -S 0.0.0.0:3737 > /dev/null 2>&1 &
 ```
 
-This is a simple proof of concept of a brute force attack with Python on HTML and PHP login forms.
-
+luego ejecutar el script con python.
 ```
 python bruteForce.py
 ```
