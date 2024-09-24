@@ -12,7 +12,7 @@ killall -9 php
 ```
 
 -------
-luego ejecutar el script con python.
+then run the script with python.
 ```
 python bruteForce.py
 ```
