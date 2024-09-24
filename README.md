@@ -6,7 +6,12 @@ First the local server with php or other such as xampp, apache, python, etc. mus
 ```
 php -S 0.0.0.0:3737 > /dev/null 2>&1 &
 ```
+The above command raises php in the background, so to stop it at the end of the test we use kill (linux).
+```
+killall -9 php
+```
 
+-------
 luego ejecutar el script con python.
 ```
 python bruteForce.py
